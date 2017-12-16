@@ -1,0 +1,50 @@
+<section id="about">
+
+
+    <!--div class="row">
+        <div class="three columns">
+            <img class="project-pic"  src="{{ page.media.images['configurateur-small.jpg'].url }}" alt="" />
+        </div>
+
+        <div class="nine columns main-col">
+            {{ page.content }}
+
+            <div class="row">
+                {% if page.header.buttons %}
+                <div class="columns download">
+                    <p>
+                        {% for button in page.header.buttons %}
+                            <a href="{{ button.url }}" class="button" target="_blank"><i class="fa fa-{{ button.icon }}"></i>{{ button.text }}</a>
+                        {% endfor %}
+                    </p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div-->
+
+
+    {% for item in page.header.projets %}
+        <div class="row">
+
+            <div class="three columns">
+                {% for image in item.img %}
+                    {{ page.media[image].html() }}
+                {% endfor %}
+            </div>
+
+            <div class="nine columns main-col">
+                <h2>
+                    {{ item.title }}
+                    {% if item.url %}
+                        <a href="{{ item.url }}" class="button small" target="_blank"><i class="fa fa-external-link"></i> Voir le projet</a>
+                    {% endif %}
+                </h2>
+                <p>{{ item.description }}</p>
+            </div>
+
+        </div>
+    {% endfor %}
+
+
+</section>
