@@ -1,4 +1,32 @@
+
 <section id="portfolio">
+    <div class="row">
+        <h1><span>Références</span></h1>
+    </div>
+<div class="slider-porfolio" id="slider-porfolio">
+    {% for item in page.header.portfolio %}
+        <div class="porfolio-container">
+            <a href="#modal-{{ loop.index }}" title="">
+                <!--img class="scale-with-grid" src="{{ page.media[item.img].url }}" alt="" /-->
+                <!--div class="more-content"-->
+                    {{ page.media[item.img].cropZoom(1000, 540).html() }}
+                    <div class="overlay" data-animation-in="fadeIn">
+                        <div class="portfolio-item-meta">
+                            <h5>{{ item.title }}</h5>
+                            <p>{{ item.description }}</p>
+                            <div class="link-icon"><i class="icon-plus"></i></div>
+                        </div>
+                    </div>
+                <!--/div-->
+            </a>
+        </div>
+    {% endfor %}
+</div>
+</section>
+
+
+
+<!--section id="portfolio">
     <div class="row">
         <div class="twelve columns collapsed">
             {{ page.content }}
@@ -36,4 +64,4 @@
         </div>
         {% endfor %}
     </div>
-</section>
+</section-->

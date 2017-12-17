@@ -9,11 +9,16 @@
         {% include 'partials/metadata.html.twig' %}
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
+        <link rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
          {% block stylesheets %}
                 {% do assets.addCss('theme://css/default.css') %}
                 {% do assets.addCss('theme://css/layout.css') %}
+                {% do assets.addCss('theme://js/slick/slick.css') %}
+                {% do assets.addCss('theme://js/slick/slick-theme.css') %}
                 {% do assets.addCss('theme://css/media-queries.css') %}
                 {% do assets.addCss('theme://css/magnific-popup.css') %}
+                {% do assets.addCss('theme://css/mkms.css') %}
         {% endblock %}
         {{ assets.css() }}
         <script src="{{ url('theme://js/modernizr.js') }}"></script>
@@ -35,9 +40,14 @@
             <script type="text/javascript" src="{{ url('theme://js/jquery-migrate-1.2.1.min.js') }}"></script>
             {% do assets.addJs('theme://js/jquery.flexslider.js') %}
             {% do assets.addJs('theme://js/waypoints.js') %}
+            {% do assets.addJs('theme://js/slick/slick.min.js') %}
+            {% do assets.addJs('theme://js/slick/slick-animation.min.js') %}
             {% do assets.addJs('theme://js/jquery.fittext.js') %}
             {% do assets.addJs('theme://js/magnific-popup.js') %}
+            {% do assets.addJs('theme://js/jquery.waypoints.min.js') %}
             {% do assets.addJs('theme://js/init.js') %}
+
+
             {% include 'partials/twFetcher.html.twig' %}
         {% endblock %}
         {{ assets.js() }}

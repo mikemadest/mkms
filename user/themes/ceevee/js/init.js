@@ -6,6 +6,37 @@
 
  jQuery(document).ready(function($) {
 
+
+
+
+     /*----------------------------------------------------*/
+     /* Slick carousel
+      ------------------------------------------------------ */
+
+     $('.slider-porfolio').slick();
+
+
+     $('#contactButtons').css('opacity', 0);
+     $('#contactButtons').waypoint({
+         handler: function(direction) {
+             //console.log(this.element.id + ' hit, direction = ' + direction);
+             //if (direction == 'down') {
+                 $(this.element).addClass('animated fadeInRight');
+                 $(this.element).removeClass('fadeOutRight');
+             /*} else {
+                 $(this.element).removeClass('fadeInRight');
+                 $(this.element).addClass('animated fadeOutRight');
+             }*/
+         },
+         offset: '75%'
+     });
+
+
+     $("#slider-porfolio").slickAnimation();
+
+
+
+
 /*----------------------------------------------------*/
 /* FitText Settings
 ------------------------------------------------------ */

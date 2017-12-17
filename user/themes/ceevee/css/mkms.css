@@ -1,0 +1,85 @@
+
+
+
+#portfolio {
+    background: #212121;
+    padding-top: 16px;
+}
+#portfolio h1 {
+    color: #fff;
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px 0 24px 0;
+    text-align: left;
+}
+#portfolio h1 span {
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;
+}
+
+.slider-porfolio {
+    width: 90%;
+    margin: auto;
+    height: 540px;
+    /*overflow: hidden;*/
+}
+
+
+.porfolio-container {
+    position: relative;
+    text-align: center;
+    height: 540px;
+    overflow: hidden;
+}
+
+.porfolio-container img {
+    /*position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;*/
+    margin: 0 auto;
+}
+
+
+/*
+.slider-porfolio h3 {
+    background: #fff;
+    color: #3498db;
+    font-size: 36px;
+    line-height: 100px;
+    margin: 10px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+}*/
+
+.more-content {
+    position: relative;
+    float: left;
+    width:  100%;
+    background: yellow;
+    overflow: hidden;
+}
+
+/*.slider-porfolio [data-animation-in] {
+    opacity: 0;
+}*/
+
+.slider-porfolio .overlay h5 {
+    color: #fff;
+}
+.slider-porfolio .overlay {
+    position: relative;
+    bottom: 160px;
+    /*left: 50%;*/
+    z-index: 2;
+    color: #fff;
+    height: 30%;
+    width: 1000px;
+    margin: 0 auto 0 auto;
+    /*margin: 0 auto 0 -500px;*/
+    max-width: 100%;
+    padding: 24px;
+    background: rgba(0, 0, 0, 0.8);
+}
