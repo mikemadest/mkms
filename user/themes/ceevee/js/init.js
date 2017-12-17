@@ -133,6 +133,19 @@
 /*	Modal Popup
 ------------------------------------------------------*/
 
+
+
+     $('.porfolio-container a').magnificPopup({
+
+         type:'inline',
+         fixedContentPos: false,
+         removalDelay: 200,
+         showCloseBtn: false,
+         mainClass: 'mfp-fade'
+
+     });
+
+
     $('.item-wrap a').magnificPopup({
 
        type:'inline',
