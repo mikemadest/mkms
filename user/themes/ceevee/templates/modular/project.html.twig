@@ -1,4 +1,4 @@
-<section id="about">
+<section id="project">
 
 
     <!--div class="row">
@@ -24,27 +24,46 @@
     </div-->
 
 
+    <div class="project-content">
     {% for item in page.header.projets %}
+        <div class="" id="portfolio">
+            <div class="project-header">
+                <div class="vignette">{{ page.media[item.imgbig].html() }}</div>
+                <div class="overlay">
+                    <div class="row">
+                        <div class="three columns">
+                            <h1>{{ item.title }}</h1>
+                        </div>
+                        <div class="nine main-col columns">
+                            <p>
+                                {{ item.intro }}
+                            </p>
+                        </div>
+                        <!--div class="columns"-->
+                        {% if item.url %}
+                            <a href="{{ item.url }}" class="button small" target="_blank"><i class="fa fa-external-link"></i> {{ item.text }}</a>
+                        {% endif %}
+                        <!--/div-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+
+            /*.project-header .overlay:before {
+                background-image: url({{ page.media[item.imgbig].url }});
+                background-repeat: no-repeat;
+                background-position: center 71%;
+            }*/
+
+
+        </style>
+
         <div class="row">
-
-            <div class="three columns">
-                {% for image in item.img %}
-                    {{ page.media[image].html() }}
-                {% endfor %}
-            </div>
-
-            <div class="nine columns main-col">
-                <h2>
-                    {{ item.title }}
-                    {% if item.url %}
-                        <a href="{{ item.url }}" class="button small" target="_blank"><i class="fa fa-external-link"></i> Voir le projet</a>
-                    {% endif %}
-                </h2>
-                <p>{{ item.description }}</p>
-            </div>
-
+            {{ item.description }}
         </div>
     {% endfor %}
+    </div>
 
 
 </section>

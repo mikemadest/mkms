@@ -4,47 +4,57 @@ hidemenu: true
 buttons:
     - url: "#contact"
       icon: envelope
-      text: Contactez-moi
+      text: Voir un exemple
       
 projets:
     - title: "Player 3d"
+    
+      intro: | 
+        Le player 3d est un outil en javascript utilisant un canvas et du webgl pour afficher une maquette virtuelle qu'on peut zoomer et tourner.<br />
+         Les batiments présentent une découpe d'étage dans laquelle des zones interactives correspondant aux logements sont visibles.
+    
       description: |
-          <h3 class="article-title">Le projet</h3>
-          <p>
-            Le player 3d est un <span>outil permettant d'afficher une maquette virtuelle</span> qu'on peut manipuler :<br />
-             zoom, rotation, découpe d'étage du batiment.<br />
-             Lorsqu'on visualise une découpe d'étage, des zones actives sont visibles et il est possible de les cliquer
-              pour voir un plan 3d de ce logement.<br />
-          </p>
-           <h3 class="article-title">Aspects techniques :</h3>
-           <p>
-              la maquette est composée de 30 images précalculées composant l'animation de la rotation,<br />
-              ainsi que de zones 3d temps réel (plus la position de la caméra pour chaque frame).
-          </p>
+          <div class="row">
+          <div class="three columns">
+            <h1><span>Aspects techniques :</span></h1>
+          </div>
+          <div class="nine main-col columns">
+               <p>
+                  la maquette est composée de 30 images précalculées composant l'animation de la rotation,<br />
+                  ainsi que de zones 3d temps réel (plus la position de la caméra pour chaque frame).
+              </p>
+          </div>
+          
           <h3 class="article-title">Mission</h3>
           <p>
-            La direction de départ était d'<span>optimiser cet outil en rendant plus rapide le chargement et l'affichage,
+            Le but était d'<span>optimiser la librairie en rendant plus rapide le chargement et l'affichage,
             ainsi que la réactivité globale</span>. <br />
-            <br />
+            </p>
+          <h3 class="article-title">Mon apport</h3>
+          <p>
             => chargement d'images basse résolution en premier puis amélioration de la qualité;<br />
             <br />
             => <span>gestionnaire de file d'attente</span> priorisant l'image en cours,
-            puis une image sur trois en tournant;<br />
+            puis une image sur trois parmis les 30 composants la rotation;<br />
             <br />
-            => <span>le loader est caché avant que tout soit chargé</span> (3 à 6 images suffisent), ce qui donne une
-            impression de chargement fini plus rapidement. <span>Le chargement continue en tâche de fond mais la manipulation est possible</span>.<br />
+            => <span>l'indicateur de chargement disparaît alors que 20% des éléments sont chargés</span>, ce qui donne une
+            impression de chargement fini plus rapidement. <br />
+            => <span>Le chargement continue en tâche de fond mais la manipulation est possible</span> 
+            car on a assez d'images pour faire une rotation.<br />
             <br />
-            => <span>séparation de l'outil en un gestionnaire principal, deux drivers (html5 et flash) et le gestionnaire de téléchargement</span>.
-            Scinder la librairie en plus petites parties plus spécialisées permet une manipulation du code plus simple.<br />
+            => <span>changement du code gérant l'inertie</span> : avant, chaque mouvement de la maquette passait par une sorte de "tween", donnant une impression de lourdeur.
+            Après modification, les mouvements suivent le contrôle de l'utilisateur tant que le bouton
+            de la souris est maintenu, donnant une meilleure impression de réactivité.
+            Lorsque le bouton est relaché on calcule la vitesse radiale et une décélération est faite (via une fonction de easing).<br />
             <br />
-            => <span>documentation de l'outil</span> (commentaires, API, exemples et cas de tests pour vérifier que les évolutions ne cassent pas l'existant).<br />
+            => <span>séparation de l'outil en un gestionnaire principal, deux drivers (html5 et flash) et le gestionnaire de téléchargement</span>.<br />
             <br />
-            => <span>changement du code gérant l'inertie</span> : les mouvements suivent le contrôle de l'utilisateur tant que le bouton
-            de la souris est maintenu mais lorsqu'elle est relachée il y a désormais un calcul de la vitesse radiale et une décélération
-            (via une fonction de easing).       
+            => <span>documentation de l'outil</span> : commentaires, API, exemples et cas de tests pour vérifier que les évolutions ne cassent pas l'existant.<br />
           </p>
       img: [player-small.jpg]
+      imgbig: "player-big.jpg"
       url: "http://configurateur.bouygues-immobilier.com/index?pid=030-295J42&lname=C104"
+      text: Voir un exemple
       
       
       
