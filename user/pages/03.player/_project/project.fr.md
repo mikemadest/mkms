@@ -66,7 +66,7 @@ projets:
           </div>
           
       img: [player-small.jpg]
-      imgbig: "player-big.jpg"
+      imgbig: "player-demo5.gif"
       url: "http://configurateur.bouygues-immobilier.com/index?pid=030-295J42&lname=C104"
       text: Voir un exemple
       

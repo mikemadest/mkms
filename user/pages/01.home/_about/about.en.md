@@ -15,9 +15,7 @@ buttons:
 ---
 ## About Me
 
-<span>8 years a fullstack web developper in my own firm</span>, where i've done a lot of various projets, from simple website to shops and works for teachers, small and medium firm,
-lilibricole, "Le Télégramme"...
-And <span>5 years in my current job at Arka Studio as a lead software engineer</span>.
-We are now 12 developers organized in project team using agile methodologies,
-with backoffice, crm, Unreal Engine and VR projects, webgl realtime, advanced flat customization and preview.
-
+I started as a <span>co-creator and php/javascript developer</span> of the Axiprod firm for eight years,
+then integrated my <span>current position as a lead software engineer</span> at Arka Studio in 2012.
+We are a 12 developers team using agile methodologies,
+with various projects like ERP, CRM and VR projects, advanced real estate customization and preview.

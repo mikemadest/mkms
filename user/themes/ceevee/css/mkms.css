@@ -1,10 +1,19 @@
 
 
-
+.porfolio-like,
 #portfolio {
     background: #212121;
     padding-top: 16px;
+    /*background: #ebeeee;*/
 }
+
+
+.porfolio-like {
+    padding-bottom: 0;
+}
+
+
+.porfolio-like h1,
 #portfolio h1 {
     color: #fff;
     font: 18px/24px 'opensans-bold', sans-serif;
@@ -13,6 +22,7 @@
     padding: 12px 0 24px 0;
     text-align: left;
 }
+.porfolio-like h1 span,
 #portfolio h1 span {
     border-bottom: 3px solid #11ABB0;
     padding-bottom: 6px;
@@ -90,27 +100,27 @@
 .project-header {
     width: 100%;
     margin: 36px auto 0 auto;
-    position: relative;
-    max-height: 540px;
+    /*position: relative;*/
+    /*max-height: 540px;*/
 }
 
 
 .project-header .vignette {
     margin: 0 auto 0 auto;
-    height: 540px;
+    /*height: 540px;*/
     max-height: 540px;
     overflow: hidden;
     text-align: center;
 }
 
 .project-header .vignette img {
-    margin-top: -65px;
+    /*margin-top: 135px;*/
 }
 
 .project-header .overlay {
-    position: absolute;
+    /*position: absolute;
     top: 0;
-    z-index: 2;
+    z-index: 2;*/
     color: #fff;
     /*height: 80px;*/
     width: 100%;
@@ -123,10 +133,13 @@
     -webkit-backdrop-filter : bur(5px);*/
 }
 
+.porfolio-like .project-header .overlay h1,
 #portfolio .project-header .overlay h1 {
-    font: 24px/4px 'opensans-bold', sans-serif;
+    font: 24px/24px 'opensans-bold', sans-serif;
 }
 
+
+.porfolio-like .project-header .overlay p,
 #portfolio .project-header .overlay p {
     font: 18px/24px;
     color: #fff;

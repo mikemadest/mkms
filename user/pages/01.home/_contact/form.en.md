@@ -1,7 +1,7 @@
 ---
 title: Contact Form
 menu: Contact
-lead: Please let me now if you're interested in my profile, want to meet me or just have question.
+lead: Please let me now if you're interested in my profile, want to meet me or just have questions.
 widgets:
     - title: My info
       content:

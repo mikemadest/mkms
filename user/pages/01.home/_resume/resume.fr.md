@@ -19,6 +19,8 @@ sections:
               level: 95
             - name: Javascript
               level: 85
+            - name: Angular
+              level: 40
             - name: CSS
               level: 80
             - name: Html5

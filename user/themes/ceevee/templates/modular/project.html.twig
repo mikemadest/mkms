@@ -1,32 +1,8 @@
 <section id="project">
 
-
-    <!--div class="row">
-        <div class="three columns">
-            <img class="project-pic"  src="{{ page.media.images['configurateur-small.jpg'].url }}" alt="" />
-        </div>
-
-        <div class="nine columns main-col">
-            {{ page.content }}
-
-            <div class="row">
-                {% if page.header.buttons %}
-                <div class="columns download">
-                    <p>
-                        {% for button in page.header.buttons %}
-                            <a href="{{ button.url }}" class="button" target="_blank"><i class="fa fa-{{ button.icon }}"></i>{{ button.text }}</a>
-                        {% endfor %}
-                    </p>
-                </div>
-                {% endif %}
-            </div>
-        </div>
-    </div-->
-
-
     <div class="project-content">
     {% for item in page.header.projets %}
-        <div class="" id="portfolio">
+        <div class="porfolio-like" id="portfolio2">
             <div class="project-header">
                 <div class="vignette">{{ page.media[item.imgbig].html() }}</div>
                 <div class="overlay">
@@ -39,23 +15,14 @@
                                 {{ item.intro }}
                             </p>
                         </div>
-                        <!--div class="columns"-->
                         {% if item.url %}
                             <a href="{{ item.url }}" class="button small" target="_blank"><i class="fa fa-external-link"></i> {{ item.text }}</a>
                         {% endif %}
-                        <!--/div-->
                     </div>
                 </div>
             </div>
         </div>
 
-        <style>
-            /*.project-header .overlay:before {
-                background-image: url({{ page.media[item.imgbig].url }});
-                background-repeat: no-repeat;
-                background-position: center 71%;
-            }*/
-        </style>
 
         <div class="projet-details">
             {{ item.description }}

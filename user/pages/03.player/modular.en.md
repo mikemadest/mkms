@@ -1,6 +1,6 @@
 ---
 title: Mkms
-menu: Projects
+menu: 3d player
 
 onpage_menu: true
 content:

@@ -1,4 +1,4 @@
-<nav id="nav-wrap">
+<nav id="nav-wrap" class="opaque">
     <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
     <a class="mobile-btn" href="#close" title="Hide navigation">Hide navigation</a>
 
@@ -6,6 +6,13 @@
     {% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
 
     <ul id="nav" class="nav">
+
+        <li class="current">
+            <a class="smoothscroll" href="#home">
+                Lead software engineer
+            </a>
+        </li>
+
         {% for page in pages.children %}
             {% if page.visible %}
                 {% set current_page = (page.active or page.activeChild) ? 'current' : '' %}
