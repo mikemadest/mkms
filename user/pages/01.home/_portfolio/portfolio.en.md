@@ -2,15 +2,10 @@
 title: Portfolio
 see_more: Open link
 close_action: Close
-portfolio:
-  - title: "Immodesk"
-    description: backoffice, crm, stock management
-    img: immodesk.jpg
-    content: "SAS oriented software for managing real estate stock."
-    tags: Zend Framework, PHP
-    link: http://www.immodesk.fr/
-    details: http://www.immodesk.fr/
-    
+description: |
+    <span>Check those two detailled projects :</span> <a href="/en/configurateur">the real estate configurator</a>,
+    and <a href="/en/player">the 3d player</a>.
+portfolio:    
   - title: "Real estate configurator"
     description: Webgl, php development
     img: vinci.jpg
@@ -19,11 +14,13 @@ portfolio:
     details: /en/configurateur
     link: http://vinci.configurateur.preprod.arka-studio.net/
     
-  - title: "Realtime tests"
-    description: Threejs, blender
-    img: blender.jpg
-    content: "Tryout with modeling in blender and realtime in threejs. Work in progress."
-    tags: Threejs, blender, 3d    
+  - title: "Immodesk"
+    description: backoffice, crm, stock management
+    img: immodesk.jpg
+    content: "SAS oriented software for managing real estate stock."
+    tags: Zend Framework, PHP
+    link: http://www.immodesk.fr/
+    details: http://www.immodesk.fr/ 
     
   - title: "Player 3d for virtual model"
     description: vefa, 3d, webgl
@@ -32,6 +29,12 @@ portfolio:
     tags: javascript, webgl, threejs
     link: http://www.safran-immobilier.fr/programme/le-domaine-de-la-mission-talence-gironde/?template=maquette#navigation-programme
     details: /en/player
+    
+  - title: "Realtime tests"
+    description: Threejs, blender
+    img: blender.jpg
+    content: "Tryout with modeling in blender and realtime in threejs. Work in progress."
+    tags: Threejs, blender, 3d   
     
   - title: "Lilibricole DIY lessons (2011)"
     description: old Web Development project

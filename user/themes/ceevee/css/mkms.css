@@ -205,8 +205,13 @@
     margin-bottom: 10rem;
 }
 
+.no-margin {
+    margin-top: 0;
+}
+
+
 .task-list li {
-    margin-bottom: 2rem;
+    margin-bottom: 1.8rem;
 }
 
 .task-list li i.material-icons {

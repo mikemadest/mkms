@@ -1,6 +1,7 @@
 ---
 title: Mkms
 hidemenu: true
+visible: false
 menu: Real estate configurator
 
 onpage_menu: true

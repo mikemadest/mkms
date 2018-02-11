@@ -1,6 +1,7 @@
 ---
 title: Mkms
 hidemenu: true
+visible: false
 menu: Configurateurs
 
 onpage_menu: true
