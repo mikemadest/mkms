@@ -1,7 +1,7 @@
 ---
 title: Contactez-moi
 menu: Contact
-lead: Si vous avez des questions ou que mon profil vous intéresse, contactez-moi !
+lead: Vous avez des questions, mon profil vous intéresse ? contactez-moi !
 widgets:
     - title: Mes coordonnées
       content:

@@ -22,8 +22,8 @@ sections:
               - R&D, PHP / Mysql software engineering, HTML and CSS, Javascript.<br />
               - PHP Framework creation, powerfull project initialisation tools.<br />
               - 8 years of various projects: shops, intranet tools, backoffices...<br />
-              - Teacher in Brest Business School for 5 years (Photoshop, Internet History, html/css), 
-              and teacher for a full 6 month php course at Initiative Formation.<br />
+              - Taught Photoshop, Internet History and html/css in Brest Business School for 5 years, 
+              and php for 6 month at Initiative Formation.<br />
           
     - title: Education
       css_class: education
@@ -45,8 +45,8 @@ sections:
           info:
           date:
           description: |
-                I'm experience with everything listed and so can integrate real fast in those kind of projects. 
-                <strong>But my strong point is to learn fast and adapt to web evolutions.</strong>
+                I'm highly skilled and effective with everything listed below,
+                <strong>but i'm not restricted to those</strong> and my greatest strength is my quick learning abilities and my adapting to the web evolutions.
           skills:
             - name: Zend Framework 1&2
               level: 80
@@ -54,7 +54,9 @@ sections:
               level: 95
             - name: Javascript
               level: 85
-            - name: Angular
+            - name: NodeJS
+              level: 40
+            - name: AngularJS
               level: 40
             - name: CSS
               level: 80

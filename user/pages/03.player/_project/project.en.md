@@ -26,7 +26,7 @@ projets:
               </div>
           </div>          
           
-          <div class="row">
+          <div class="row" style="margin-top: 24px;">
               <div class="four columns">
                 <h1><span>Mission</span></h1>
               </div>
@@ -38,28 +38,28 @@ projets:
           </div>
           
           
-          <div class="row">
+          <div class="row" style="margin-top: 24px;">
               <div class="four columns">
-                <h1><span>Changes</span></h1>
+                <h1><span>Work</span></h1>
               </div>
               <div class="eight main-col columns">
                    <ul class="task-list">
-                        <li><i class="material-icons">chevron_right</i><strong>Low res frames for faster ready state</strong> then we load the higher quality ones.</li>
+                        <li><i class="material-icons">chevron_right</i><strong>Start with low res frames for faster ready state</strong>, then we load the higher quality ones.</li>
                         
                         <li><i class="material-icons">chevron_right</i><strong>Download manager</strong> priorizing the current frame, then "key" frames, making the rotation possible,
-                        and improving it after that.</li>
+                        then improving fluidity.</li>
                         
-                        <li><i class="material-icons">chevron_right</i><strong>After changes, the app required only 20% of frames to disable the loading indicator</strong>, 
+                        <li><i class="material-icons">chevron_right</i><strong>After upgrading the app, it only required 20% of frames to disable the loading indicator</strong>, 
                         making it look way faster.</li>
                         
-                        <li><i class="material-icons">chevron_right</i><strong>Background downloading improves the quality and fluidity,</strong> 
-                         without interfering with the user.</li>
+                        <!--li><i class="material-icons">chevron_right</i><strong>Background downloading improves the quality and fluidity,</strong> 
+                         without interfering with the user.</li-->
                         
                         <li><i class="material-icons">chevron_right</i><strong>Better inertia simulation</strong> with rotation speed and deceleration.<li>
                         
-                        <li><i class="material-icons">chevron_right</i><strong>Tool separated in 4 smaller "one purpose" class</strong> : the main core, two 3d driver (flash and webgl) and the download manager.</li>
+                        <li><i class="material-icons">chevron_right</i><strong>Tool separated in 4 smaller "one purpose" classes</strong> : the main core, two view handler (flash and webgl) and the download manager.</li>
                         
-                        <li><i class="material-icons">chevron_right</i><strong>Documentation</strong> : samples, test cases, API, everything needed for other developers use.</li>
+                        <li><i class="material-icons">chevron_right</i><strong>Extended documentation</strong> : samples, test cases, API, everything needed for other developers use.</li>
                   </p>
               </div>
           </div>

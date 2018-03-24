@@ -1,7 +1,7 @@
 ---
 title: Mkms
 menu: 3d player
-visible: false
+visible: true
 
 onpage_menu: true
 content:

@@ -2,6 +2,8 @@
 title: Portfolio
 see_more: Ouvrir le lien
 close_action: Fermer
+description: |
+    <span>Consultez aussi cet exemple de projet :</span> <a href="/fr/player">le player 3d</a>.
 portfolio:
   - title: "Immodesk"
     description: backoffice, crm, gestion de stock

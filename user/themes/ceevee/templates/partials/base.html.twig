@@ -9,11 +9,12 @@
         {% include 'partials/metadata.html.twig' %}
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
-        <link rel="stylesheet"
-              href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+        <!--link rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"-->
          {% block stylesheets %}
                 {% do assets.addCss('theme://css/default.css') %}
                 {% do assets.addCss('theme://css/layout.css') %}
+                {% do assets.addCss('theme://css/animate.min.css') %}
                 {% do assets.addCss('theme://js/slick/slick.css') %}
                 {% do assets.addCss('theme://js/slick/slick-theme.css') %}
                 {% do assets.addCss('theme://css/media-queries.css') %}

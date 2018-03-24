@@ -13,7 +13,16 @@
      /* Slick carousel
       ------------------------------------------------------ */
 
-     $('.slider-porfolio').slick();
+     $('#slider-porfolio').slick({
+         "slidesToShow": 1,
+         "slidesToScroll": 1,
+         dots: true,
+         infinite: true,
+         speed: 300,
+         adaptiveHeight: true,
+         useCSS: false,
+         useTransform: false
+     });
 
 
      $('#contactButtons').css('opacity', 0);

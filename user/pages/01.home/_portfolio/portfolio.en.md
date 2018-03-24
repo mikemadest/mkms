@@ -1,9 +1,10 @@
 ---
 title: Portfolio
-see_more: Open link
+see_more: More details
+see_project: Open project
 close_action: Close
 description: |
-    <span>Check those two detailled projects :</span> <a href="/en/configurateur">the real estate configurator</a>,
+    <span>Check those two detailed projects :</span> <a href="/en/configurateur">the real estate configurator</a>,
     and <a href="/en/player">the 3d player</a>.
 portfolio:    
   - title: "Real estate configurator"
@@ -12,7 +13,7 @@ portfolio:
     content: "Shop for your floor covering, navigate in your customized appartement with 3 available decorations."
     tags: Web Development, 3d, threejs/webgl
     details: /en/configurateur
-    link: http://vinci.configurateur.preprod.arka-studio.net/
+    link: https://configurateur.vinci-immobilier.com/visite/portail
     
   - title: "Immodesk"
     description: backoffice, crm, stock management

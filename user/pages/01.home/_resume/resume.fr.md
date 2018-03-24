@@ -19,7 +19,9 @@ sections:
               level: 95
             - name: Javascript
               level: 85
-            - name: Angular
+            - name: NodeJS
+              level: 40
+            - name: AngularJS
               level: 40
             - name: CSS
               level: 80
