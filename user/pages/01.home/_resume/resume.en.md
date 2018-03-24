@@ -48,22 +48,6 @@ sections:
                 I'm highly skilled and effective with everything listed below,
                 <strong>but i'm not restricted to those</strong> and my greatest strength is my quick learning abilities and my adapting to the web evolutions.
           skills:
-            - name: Zend Framework 1&2
-              level: 80
-            - name: PHP
-              level: 95
-            - name: Javascript
-              level: 85
-            - name: NodeJS
-              level: 40
-            - name: AngularJS
-              level: 40
-            - name: CSS
-              level: 80
-            - name: Html5
-              level: 80
-            - name: Jquery
-              level: 90
-            - name: Threejs
-              level: 70
+            - name: <strong>Strong : </strong>PHP, Javascript, HTML/CSS, Zend Framework 1&2, Git
+            - name: <strong>Knowledgeable : </strong>NodeJS, AngularJS, ThreeJS, SASS, Gulp
 ---

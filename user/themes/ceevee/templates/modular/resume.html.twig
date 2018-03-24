@@ -19,14 +19,29 @@
                     </p>
 
                     {% if item.skills %}
-                    <div class="bars">
+                    <!--div class="bars">
                         <ul class="skills">
                             {% for skill in item.skills %}
                             <li><span class="bar-expand" style="width: {{ skill.level }}%;animation: {{ skill.name|lower }} 2s ease;"></span><em>{{ skill.name }}</em></li>
                             {% endfor %}
                         </ul>
-                    </div>
+                    </div-->
+
+                        <div class="row">
+                            <ul class="skills">
+                                {% for skill in item.skills %}
+                                    <li>{{ skill.name }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+
+
                     {% endif %}
+
+                    <!--
+                    Strong : PHP, Javascript, HTML/CSS, Zend Framework 1&2, Git
+                    Knowledgeable : NodeJS, AngularJS, ThreeJS, SASS, Gulp
+                    -->
 
                 </div>
             </div>
