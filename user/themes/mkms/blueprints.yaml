@@ -1,0 +1,16 @@
+name: Mkms
+version: 2.0.0
+description: "Theme for Mkms, my personnal website"
+icon: group
+author:
+  name: Mickaël Meausoone
+  email: mickael@mkms.fr
+  url: http://www.mkms.fr
+homepage: https://github.com/mikemadest
+keywords: theme, modern, fast, responsive, html5, css3, resume
+bugs: https://github.com/mikemadest/mkms/issues
+license: CC BY 3.0
+
+form:
+  validation: strict
+  fields:

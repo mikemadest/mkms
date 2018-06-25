@@ -58,10 +58,9 @@ content:
         by: default
         dir: asc
         custom:
-            - _intro
+            - _jumbo
             - _about
-            - _resume
-            - _portfolio
-            - _call
+            - _recentworks
+            - _olderworks
             - _contact
 ---

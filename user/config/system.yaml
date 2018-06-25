@@ -9,7 +9,7 @@ languages:
     - fr
 
 pages:
-  theme: ceevee
+  theme: mkms
   process:
     markdown: true
     twig: false

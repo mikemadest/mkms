@@ -1,4 +1,0 @@
-name: Mike
-email: mikemadest@yahoo.fr
-message: test d'envoi d'email avec le formulaire de contact du site
-

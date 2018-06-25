@@ -9,4 +9,3 @@ widgets:
         - line: 56000 Vannes
 ---
 
-Fill in the form below

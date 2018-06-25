@@ -8,5 +8,3 @@ widgets:
         - line: Mickael Meausoone
         - line: 56000 Vannes
 ---
-
-Remplissez ce formulaire, je vous contacterai dès que possible :

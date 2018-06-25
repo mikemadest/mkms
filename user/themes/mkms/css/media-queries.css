@@ -1,0 +1,184 @@
+/* ==================================================================
+
+*   Mkms Media Queries
+*   19-06-2018
+
+/* ================================================================== */
+
+
+/* screenwidth less than 1024px
+--------------------------------------------------------------------- */
+
+@media (max-width: 1024px) {
+
+    /* General styles
+    -------------------------------------------------------------------- */
+    section {
+        padding: 24px 0;
+    }
+
+    /* Main image banner
+    -------------------------------------------------------------------- */
+    #big-banner div h1 {
+        font-size: 3rem;
+    }
+
+    /* About Section
+    -------------------------------------------------------------------- */
+    #about ul {
+        display: block;
+    }
+    #about li {
+        padding: 24px 0;
+    }
+
+    /* Porfolio section
+    -------------------------------------------------------------------- */
+    .smaller-article-row article,
+    article {
+        grid-template-areas: "title"
+        "picture"
+        "detail";
+        margin-bottom: 5rem;
+    }
+
+    .smaller-article-row article h3,
+    article h3 {
+        padding-left: 0;
+        padding-bottom: 1.5rem;
+    }
+
+    article .content {
+        padding-left: 0;
+    }
+
+    .smaller-article-row article {
+        flex-basis: auto;
+    }
+
+    .smaller-article-row .illustration {
+        margin-bottom: 0;
+        max-height: 400px;
+    }
+
+}
+
+
+    /* screenwidth less than 800px
+    --------------------------------------------------------------------- */
+
+@media (max-width: 800px) {
+
+    /* General styles
+    -------------------------------------------------------------------- */
+    body {
+        font-size: 1.3rem;
+        line-height: 140%;
+    }
+
+    h4:before,
+    h3:before {
+        font-size: 14px;
+        margin: -2px 12px 0 0;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3,
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    section {
+        padding: 2rem 0;
+        margin: 0 5% 24px 5%;
+    }
+
+
+
+    /* Header Styles
+    -------------------------------------------------------------------- */
+    header {
+        flex-flow: row wrap;
+    }
+    .basename {
+        font-size: 1rem;
+    }
+    header nav {
+        padding: 0;
+    }
+    nav li {
+        padding: 0 1rem 0 0;
+    }
+
+    /* About Section
+    -------------------------------------------------------------------- */
+    #about {
+        margin-bottom: 0;
+    }
+    #about > p {
+        font-size: 1.5rem;
+    }
+
+
+    /* Porfolio Section
+    -------------------------------------------------------------------- */
+
+    article {
+        margin: 2rem 0 5rem 0;
+    }
+
+    article:last-child {
+        margin-bottom: 0;
+    }
+
+    article .content {
+        padding: 0;
+    }
+
+    article ul {
+        padding: 0 0 0 1.4rem;
+    }
+    article li:before {
+        font-size: 1rem;
+        margin: 0 0.5rem 0 -1.55rem;
+    }
+
+
+
+
+    /* contact Section
+    ----------------------------------------------------------------------- */
+    #contact { padding-bottom: 66px; }
+    #contact .section-head { margin-bottom: 12px; }
+    #contact .section-head h1 {
+        font: 16px/24px 'opensans-bold', sans-serif;
+        text-align: center;
+        margin-bottom: 30px;
+        text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+    }
+    #contact h1 span { display: block; }
+    #contact .header-col { padding-top: 0; }
+    #contact .header-col h1:before { content: none;	}
+    #contact .section-head p.lead { text-align: center;}
+
+    /* form */
+    #contact label {
+        float: none;
+        width: 100%;
+    }
+    #contact input,
+    #contact textarea,
+    #contact select {
+        margin-bottom: 6px;
+        width: 100%;
+    }
+    #contact button.submit { margin: 30px 0 24px 0; }
+    #message-warning, #message-success {
+        width: 100%;
+        margin-left: 0;
+    }
+
+}
