@@ -1,33 +1,34 @@
 ---
-title: And more...
+title: Plus de projets
 portfolio:    
   - title: "Immodesk"
     description: |
-        <strong>PHP / Mysql application using <a href="https://framework.zend.com/" target="_blank">Zend</a> and <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></strong>.
-                            A real estate ERP. Include CRM module, calendar tool, chat and is highly customizable.
+        <strong>Logiciel PHP / Mysql utilisant <a href="https://framework.zend.com/" target="_blank">Zend</a> 
+         et <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></strong>.
+                            ERP Immobilier incluant une CRM, un agenda, un chat et personalisable selon les besoins du client.
     img: immodesk-dashboard.jpg
     imgsmall: immodesk-dashboard.jpg    
     link: https://www.immodesk.fr/
     linkMode: iframe
-    linklabel: Website (fr)
+    linklabel: Site de présentation
     
-  - title: "Playing with blender"
+  - title: "Tests sur Blender"
     description: |
-        <strong>No coding here yet,</strong>
-                            just experimenting with 3d modeling and real time.
-                            I'll update it with a real time scene i soon as i can.
+        <strong>Pas encore de code,</strong>
+        juste des tests sur la modélisation 3d et le temps réel.
+        Je mettrai un lien vers une démo dès que possible.
     img: blender-tryout.jpg    
     imgsmall: blender-tryout-small.jpg    
     link: http://www.safran-immobilier.fr/programme/le-domaine-de-la-mission-talence-gironde/?template=maquette#navigation-programme
     linkMode: image
-    linklabel: Full size
+    linklabel: Zoom
     
-  - title: "Older projects..."
+  - title: "Projets plus anciens"
     description: |
-        <strong>A lot of PHP/Mysql applications, html/css integration, javascript coding :</strong><br />
-                            Customer space, media validation application for customer relationships, online shops,
-                            front and backoffice, etc.
+        <strong>Beaucoup de développements PHP/Mysql, de l'intégration, du Javascript :</strong><br />
+        Espace client avec validation de perspectives 3d, gestion des retours clients via un système de postits,
+        mais aussi des boutiques en ligne, un logiciel de caisse, des backoffices...
     img: lilibricole.jpg    
-    imgsmall: lilibricole.jpg
+    imgsmall: lilibricole-small.jpg
 ---
 #Check Out Some of My Works.

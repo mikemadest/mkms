@@ -1,5 +1,5 @@
 ---
-title: And more...
+title: More projects
 portfolio:    
   - title: "Immodesk"
     description: |
@@ -11,11 +11,11 @@ portfolio:
     linkMode: iframe
     linklabel: Website (fr)
     
-  - title: "Playing with blender"
+  - title: "Playing with Blender"
     description: |
         <strong>No coding here yet,</strong>
-                            just experimenting with 3d modeling and real time.
-                            I'll update it with a real time scene i soon as i can.
+        just experimenting with 3d modeling and real time.
+        I'll update it with a real time scene i soon as i can.
     img: blender-tryout.jpg    
     imgsmall: blender-tryout-small.jpg    
     link: http://www.safran-immobilier.fr/programme/le-domaine-de-la-mission-talence-gironde/?template=maquette#navigation-programme
@@ -25,9 +25,9 @@ portfolio:
   - title: "Older projects..."
     description: |
         <strong>A lot of PHP/Mysql applications, html/css integration, javascript coding :</strong><br />
-                            Customer space, media validation application for customer relationships, online shops,
-                            front and backoffice, etc.
+        Customer space, media validation application for customer relationships, online shops,
+        front and backoffice, etc.
     img: lilibricole.jpg    
-    imgsmall: lilibricole.jpg
+    imgsmall: lilibricole-small.jpg
 ---
 #Check Out Some of My Works.

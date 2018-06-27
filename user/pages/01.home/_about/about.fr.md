@@ -1,22 +1,32 @@
 ---
 title: A propos
-title2: Mes coordonnées
-address:
-    - line: Mickaël Meausoone
-    - line: 5600 Vannes
-buttons:
-    - url: "#contact"
-      icon: download
-      text: Téléchargez mon CV
-
-    - url: "#contact"
-      icon: envelope
-      text: Contactez-moi
+description: |
+    <strong>Développeur PHP et Javascript</strong> dans la société Arka Studio depuis 2012, 
+    j'ai travaillé sur des projets de configurateur Immobilier, un ERP, une CRM, des outils 3d
+    et même sur des projets de réalité virtuelle.
+skills :
+    - title: PHP/MySQL
+      description: |
+                    Expérience avec Zend,
+                    développement objet
+                    
+    - title: Javascript
+      description: |
+                    Travail sur des projets AngularJS,
+                    R&D sur des outils 3d, bases ES6
+                    
+    - title: Html/css
+      description: |
+                    Développeur Fullstack, à l'aise en intégration css et html5
+                    
+    - title: En équipe
+      description: |
+                    Force de proposition, impliqué,
+                    et capable de travailler seul en totale autonomie
+                    
+    - title: Méthodes
+      description: |
+                    Agile,
+                    SCRUMM, Kanban ou le minimum d'informations
 ---
 ## A propos
-
-Après 8 ans en tant que Co-créateur de la société Axiprod,
-et développeur PHP/Javascript/html/css,
-j'ai intégré mon poste actuel de chef de projet web dans la société Arka Studio, parmi une équipe de 12 personnes.
-Depuis 6 mois nous évoluons vers des méthodes agiles sur des projets comme une crm,
-des sites de promoteur, des administrations, espaces clients et configurateurs d'appartement.

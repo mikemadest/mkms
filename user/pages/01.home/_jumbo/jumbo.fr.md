@@ -1,5 +1,3 @@
 ---
-title: A propos
-title2: Mes coordonnées
+title: Développeur Web senior
 ---
-

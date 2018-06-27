@@ -1,21 +1,31 @@
 ---
 title: About
-title2: Contact Details
-address:
-    - line: Mickaël Meausoone
-    - line: 5600 Vannes
-buttons:
-    - url: "#contact"
-      icon: download
-      text: Download Resume
-
-    - url: "#contact"
-      icon: envelope
-      text: Contact me
+description: |
+    <strong>PHP and javascript developer</strong> in Arka Studio since 2012, working on
+            housing configurator, real estate ERP, CRM, Webgl viewers and even VR projects.
+skills :
+    - title: PHP/MySQL
+      description: |
+                    Experience with Zend,
+                    proficiency using object-oriented PHP
+                    
+    - title: Javascript
+      description: |
+                    Working on AngularJS projects,
+                    R&D on 3d libraries
+                    
+    - title: Html/css
+      description: |
+                    Fullstack developer, fluent in html5 and css
+                    
+    - title: Team player
+      description: |
+                    Pro-active, passionnate about my work,
+                    can also work alone in full autonomy
+                    
+    - title: Methods
+      description: |
+                    Familiar with agile, SCRUMM, Kanban,
+                    also comfortable with minimum specs
 ---
-## About Me
-
-I started as a <span>co-creator and php/javascript developer</span> of the Axiprod firm for eight years,
-then integrated my <span>current position as a lead software engineer</span> at Arka Studio in 2012.
-We are a 12 developers team using agile methodologies,
-with various projects like ERP, CRM and VR projects, advanced real estate customization and preview.
+## A propos

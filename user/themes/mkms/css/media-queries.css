@@ -5,6 +5,47 @@
 
 /* ================================================================== */
 
+/* screenwidth less than 1024px
+--------------------------------------------------------------------- */
+
+@media (max-width: 1280px) {
+
+
+    /* Porfolio section
+    -------------------------------------------------------------------- */
+    article,
+    .smaller-article-row article {
+        grid-template-areas: "title"
+        "picture"
+        "detail";
+        margin-bottom: 5rem;
+    }
+    article h3,
+    article .content {
+        padding-left: 0;
+    }
+
+    article .illustration {
+        margin-top: 2rem;
+    }
+
+    .smaller-article-row {
+        display: block;
+    }
+
+    .smaller-article-row .illustration {
+        max-height: 400px;
+        margin-bottom: 0;
+    }
+
+    .smaller-article-row article {
+        grid-template-areas: "title"
+        "picture"
+        "detail";
+        margin-bottom: 5rem;
+    }
+
+}
 
 /* screenwidth less than 1024px
 --------------------------------------------------------------------- */
@@ -29,7 +70,11 @@
         display: block;
     }
     #about li {
-        padding: 24px 0;
+        padding: .8rem 0;
+    }
+
+    #about > p {
+        margin-bottom: 1rem;
     }
 
     /* Porfolio section
@@ -48,6 +93,9 @@
         padding-bottom: 1.5rem;
     }
 
+    article .illustration {
+        margin-top: 0;
+    }
     article .content {
         padding-left: 0;
     }
@@ -146,38 +194,52 @@
         margin: 0 0.5rem 0 -1.55rem;
     }
 
+    .see-more {
+        font-size: 1.3rem;
+    }
 
 
 
     /* contact Section
     ----------------------------------------------------------------------- */
-    #contact { padding-bottom: 66px; }
-    #contact .section-head { margin-bottom: 12px; }
-    #contact .section-head h1 {
-        font: 16px/24px 'opensans-bold', sans-serif;
-        text-align: center;
-        margin-bottom: 30px;
-        text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-    }
-    #contact h1 span { display: block; }
-    #contact .header-col { padding-top: 0; }
-    #contact .header-col h1:before { content: none;	}
-    #contact .section-head p.lead { text-align: center;}
 
-    /* form */
+
+
+}
+
+@media (max-width: 600px) {
+    #big-banner div h1 {
+        font-size: 2.5rem;
+    }
+
+
+    /* contact Section
+    ----------------------------------------------------------------------- */
+
+    #contact h2 {
+        margin-bottom: 1rem;
+        padding-left: 0;
+    }
+
     #contact label {
         float: none;
-        width: 100%;
+        width: auto;
+        text-align: left;
     }
     #contact input,
     #contact textarea,
     #contact select {
+        display: block;
         margin-bottom: 6px;
-        width: 100%;
+        width: auto;
     }
-    #contact button.submit { margin: 30px 0 24px 0; }
-    #message-warning, #message-success {
-        width: 100%;
+
+    #contact .buttons {
+        padding-left: 0;
+        padding-top: 2rem;
+    }
+
+    #contact button.button {
         margin-left: 0;
     }
 

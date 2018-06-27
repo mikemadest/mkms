@@ -3,19 +3,23 @@
     <a href="#" class="basename"><strong>MkMs</strong> - Mickaël MEAUSOONE</a>
     <nav>
         <ul>
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#recent-work">Recent work</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/mickael-meausoone-webdeveloper/?locale=en_US"
-                   target="_blank"><i class="fab fa-linkedin"></i></a>
-            </li>
+
+            {% for mitem in site.menu %}
+                <li>
+                    <a href="{{ mitem.link }}">{{ mitem.title }}</a>
+                </li>
+            {% endfor %}
+
+
+            {% for item in site.social %}
+                <li>
+                    <a href="{{ item.url }}"
+                       target="_blank">
+                        <i class="{{ item.icon }}"></i>
+                    </a>
+                </li>
+            {% endfor %}
+
             <li>{% include 'partials/language-selector.html.twig' %}</li>
         </ul>
     </nav>

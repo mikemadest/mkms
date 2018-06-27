@@ -1,0 +1,26 @@
+
+<header>
+    <a href="#" class="basename"><strong>MkMs</strong> - Mickaël MEAUSOONE</a>
+    <nav>
+        <ul>
+
+            {% for mitem in page.header.items %}
+                <li>
+                    <a href="{{ mitem.link }}">{{ mitem.title }}</a>
+                </li>
+            {% endfor %}
+
+
+            {% for item in page.header.social %}
+                <li>
+                    <a href="{{ item.url }}"
+                       target="_blank">
+                        <i class="{{ item.icon }}"></i>
+                    </a>
+                </li>
+            {% endfor %}
+
+            <li>{% include 'partials/language-selector.html.twig' %}</li>
+        </ul>
+    </nav>
+</header>

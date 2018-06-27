@@ -6,14 +6,23 @@ metadata:
 
 # Header customization
 header:
-  title: Chef de projet web
-  description: je suis <span>chef de projet web</span>, <span>architecte logiciel</span> et <span>développeur fullstack</span>. Organisé et <span>méthodique</span>, je m'insère facilement dans un nouvel environnement et <span>j'apprend vite</span>. <a class="smoothscroll" href="#about">Pour en savoir plus c'est ici !</a>
+  title: <strong>MkMs</strong> - Mickaël MEAUSOONE
 copyright:
-    - line: &copy; Copyright 2014 CeeVee
-    - line: Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a>
+    - line: &copy; Copyright 2018 Mickaël Meausoone
+
 social:
 - url: "https://www.linkedin.com/in/mickael-meausoone-webdeveloper/?locale=en_US"
-  icon: linkedin
+  icon: fab fa-linkedin
+
+menu:
+    - title: About
+      link: #about
+
+    - title: Recent work
+      link: #recent-work
+
+    - title: Contact
+      link: #contact
 
 
 # HOW TO CREATE A VALID ID TO USE:

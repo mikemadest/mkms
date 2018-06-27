@@ -1,34 +1,36 @@
 ---
-title: Recent works
+title: Projets récents
 portfolio:    
-  - title: "Configurator projects"
+  - title: "Projets configurateurs"
     description: |
-        <strong>Shop for floor covering,
-        cupboard choice, bathroom decoration and other options for your housing and
-        <span class="highlight-features">get a real time preview of your choices</span>.</strong>
+        <strong>Personnalisez votre logement en choisissant les revêtements de sol, placards,
+        domotique et autres options 
+        <span class="highlight-features">et visualisez en temps réel le rendu de vos choix</span>.</strong>
     img: configurateur-demo-3.gif
     tasks: 
-        - Met challenging deadlines for 3 configurator projects
-        - Proposed and implemented php code architecture, model, coding
-        - Successfully handled R&D for new Javascripts viewers and link with 3d team
-        - Recognized efficiency, quality control and coordination of the team
-        - Managed massive gain in media processing with automation scripts
-        - Produced documentation for knowledge transfert and ongoing FAQ to make continuous improvement        
+        - 3 projets livrés sans retard malgrès des contraintes de temps difficiles
+        - Mise en place du modèle, architecture de code et implémentation
+        - Création des nouveaux outils 3d en javascript et gestion des échanges avec l'équipe 3d
+        - Efficacité ainsi que contrôle qualité reconnus, bonne gestion du groupe
+        - Enorme gain de temps avec le développement de scripts automatisant les manipulations des médias 3d
+        - Documentation du projet, des outils 3d, FAQ pour la production des médias      
     link: https://configurateur.vinci-immobilier.com/visite/portail
     linkMode: external
+    linklabel: Configurateur VINCI
     
   - title: "Player 3d"
     description: |
-        <strong>Javascript viewer mixing real time and pre-rendered scene.
-                            <span class="highlight-features">Mission was to improve loading time and performances.</span></strong>
+        <strong>Outil de visualisation WebGL mélangeant rendus temps réel et pré-calculé.
+        <span class="highlight-features">L'intervention concernait l'amélioration des performances et du temps de chargement.</span></strong>
     img: player-demo5.gif
     tasks: 
-        - Quickly learned webgl and threejs
-        - 80% faster display and ready for interaction
-        - More responsive control with better inertia simulation
-        - Improved code readability, refactored into 4 smaller "one purpose" classes
-        - Gave autonomy to the teams using it with extensive API documentation, examples and test cases      
+        - Auto formation rapide sur WebGL and ThreeJS
+        - Gain de 80% sur la vitesse d'affichage et la disponibilité 
+        - Meilleure réactivité globale et révision de la simulation d'inertie
+        - "Amélioration de la lisibilité du code : refactorisation, commentaires et séparation en 4 classes à responsabilité unique"
+        - Mise à disposition d'une documentation de l'API et d'exemples pour une meilleure prise en main par les autres équipes 
     link: http://www.safran-immobilier.fr/programme/le-domaine-de-la-mission-talence-gironde/?template=maquette#navigation-programme
     linkMode: external
+    linklabel: Exemple
 ---
 #Check Out Some of My Works.
