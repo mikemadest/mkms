@@ -8,7 +8,7 @@ portfolio:
         <span class="highlight-features">et visualisez en temps réel le rendu de vos choix</span>.</strong>
     img: configurateur-demo-3.gif
     tasks: 
-        - 3 projets livrés sans retard malgrès des contraintes de temps difficiles
+        - 3 projets livrés sans retard malgrès des contraintes de temps fortes
         - Mise en place du modèle, architecture de code et implémentation
         - Création des nouveaux outils 3d en javascript et gestion des échanges avec l'équipe 3d
         - Efficacité ainsi que contrôle qualité reconnus, bonne gestion du groupe

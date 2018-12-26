@@ -25,7 +25,7 @@ portfolio:
     
   - title: "Projets plus anciens"
     description: |
-        <strong>Beaucoup de développements PHP/Mysql, de l'intégration, du Javascript :</strong><br />
+        <strong>Beaucoup de développements PHP/Mysql, de l'intégration, du Javascript:</strong><br />
         Espace client avec validation de perspectives 3d, gestion des retours clients via un système de postits,
         mais aussi des boutiques en ligne, un logiciel de caisse, des backoffices...
     img: lilibricole.jpg    

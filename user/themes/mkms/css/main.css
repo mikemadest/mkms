@@ -260,6 +260,11 @@ footer a {
     text-align: center;
 }
 
+
+#big-banner div.banner-content div {
+    width: ;
+}
+
 #big-banner div h1 {
     padding: 0;
     color: #fff;
@@ -356,6 +361,7 @@ article h3 {
 article .illustration {
     grid-area: picture;
     overflow: hidden;
+    max-width: 550px;
 }
 
 article .content {
@@ -415,6 +421,7 @@ article:last-child {
 
 .smaller-article-row .illustration {
     max-height: 240px;
+    max-width: none;
     margin-bottom: 2rem;
 }
 
@@ -450,6 +457,20 @@ h3 .see-more {
 }
 
 
+/* ------------------------------------------------------------------ */
+/* g. Challenge Section
+/* ------------------------------------------------------------------ */
+
+.challenge {
+    background: #333;
+    margin: 0;
+    padding: 24px 8%;
+}
+
+.challenge p {
+    color: #eee;
+    margin: 24px 0;
+}
 
 
 /* ------------------------------------------------------------------ */

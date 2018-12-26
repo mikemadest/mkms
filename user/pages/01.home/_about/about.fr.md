@@ -1,14 +1,14 @@
 ---
 title: A propos
 description: |
-    <strong>Développeur PHP et Javascript</strong> dans la société Arka Studio depuis 2012, 
-    j'ai travaillé sur des projets de configurateur Immobilier, un ERP, une CRM, des outils 3d
+    <strong>Développeur PHP et Javascript</strong> depuis 14 ans et arrivé en 2012 à Arka Studio, 
+    je travaille sur des projets de configurateur Immobilier, un ERP, une CRM, des outils 3d
     et même sur des projets de réalité virtuelle.
 skills :
     - title: PHP/MySQL
       description: |
                     Expérience avec Zend,
-                    développement objet
+                    développement objet, backend et frontend.
                     
     - title: Javascript
       description: |
@@ -22,11 +22,11 @@ skills :
     - title: En équipe
       description: |
                     Force de proposition, impliqué,
-                    et capable de travailler seul en totale autonomie
+                    capable de travailler en groupe ou seul en totale autonomie
                     
     - title: Méthodes
       description: |
-                    Agile,
-                    SCRUMM, Kanban ou le minimum d'informations
+                    Expérience en Agile,
+                    SCRUM, Kanban et gestion de projet classique
 ---
 ## A propos

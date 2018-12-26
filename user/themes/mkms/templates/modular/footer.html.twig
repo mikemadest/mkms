@@ -1,15 +1,16 @@
 
 
 
-<footer>
-    <p>
-        <strong>MkMs</strong> - Mickaël MEAUSOONE - {{ page.header.title }} -
+        <footer>
+            <p>
+                <strong>MkMs</strong> - Mickaël MEAUSOONE - {{ page.header.title }} -
+                {% for item in page.header.social %}
 
-        {% for item in page.header.social %}
-            <a href="{{ item.url }}"
-               target="_blank">
-                <i class="{{ item.icon }}"></i>
-            </a>
-        {% endfor %}
-    </p>
-</footer>
+                <a href="{{ item.url }}"
+                   target="_blank">
+                    <i class="{{ item.icon }}"></i>
+                </a>
+                {% endfor %}
+
+            </p>
+        </footer>

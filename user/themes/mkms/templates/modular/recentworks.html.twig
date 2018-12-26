@@ -1,26 +1,40 @@
 
-<section id="recent-work" class="work-articles">
-    <h2>{{ page.header.title }}</h2>
+        <section id="recent-work" class="work-articles">
+
+            <!--
+
+            Two projects, it's not much but we want it short. Contact me for more,
+            what i wanted here was example of my work and what i can bring to it.
+
+            -->
+
+            <h2>{{ page.header.title }}</h2>
 
 
-    {% for item in page.header.portfolio %}
-        <article>
-            <div class="illustration">
-                <a href="{{ item.link }}" target="_blank" class="">
-                    {{ page.media[item.img].html() }}
-                </a>
-            </div>
-            <h3>{{ item.title }}</h3>
-            <div class="content">
-                <p>{{ item.description }}</p>
-                <ul>
-                    {% for task in item.tasks %}
-                    <li>{{ task }}</li>
-                    {% endfor %}
-                </ul>
-                <a href="{{ item.link }}" target="_blank" class="see-more">{{ item.linklabel }}</a>
-            </div>
-        </article>
-    {% endfor %}
+            {% for item in page.header.portfolio %}
 
-</section>
+                <article>
+                    <div class="illustration">
+                        <a href="{{ item.link }}" target="_blank" class="">
+                            {{ page.media[item.img].html() }}
+                        </a>
+                    </div>
+                    <h3>{{ item.title }}</h3>
+                    <div class="content">
+                        <p>
+                            {{ item.description }}
+                        </p>
+                        <ul>
+                            {% for task in item.tasks %}
+
+                            <li>{{ task }}</li>
+
+                            {% endfor %}
+
+                        </ul>
+                        <a href="{{ item.link }}" target="_blank" class="see-more">{{ item.linklabel }}</a>
+                    </div>
+                </article>
+
+            {% endfor %}
+        </section>

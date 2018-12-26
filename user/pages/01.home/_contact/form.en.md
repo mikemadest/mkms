@@ -7,5 +7,6 @@ widgets:
       content:
         - line: Mickael Meausoone
         - line: 56000 Vannes
+       
 ---
 

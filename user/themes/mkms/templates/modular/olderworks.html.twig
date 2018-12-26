@@ -1,58 +1,82 @@
 
 
-<section id="older-work" class="work-articles">
-    <h2>{{ page.header.title }}</h2>
+        <section id="older-work" class="work-articles">
+
+            <!--
+
+            Again, it's a short list :
+            At Arka Studio i've worked on software like Immodesk,
+            which represent 2 years worth of work alone (maintenance, evolution, customers special needs)
+            and more than 20 regular Clients, like Bouygues Immobilier, Copade, Bati-Armor, Vinci Immobilier, Safran, etc.
+
+             There is a also a front side made with wordpress, fully customized to our needs
+             (widgets, themes, plugins and xmlrpc for the old Immodesk API,
+             now we're moving to a REST API).
+
+             Immodesk was an evolution of Evimmo, a tool to manage real estate stock,
+             but more simple and a zend php front.
+
+            -->
+            <h2>{{ page.header.title }}</h2>
 
 
-    <div class="smaller-article-row">
-        {% for item in page.header.portfolio %}
-            <article>
-                <div class="illustration">
+            <div class="smaller-article-row">
+                {% for item in page.header.portfolio %}
 
-                    {% if item.link %}
-                        {% if item.linkMode == 'iframe' %}
+                    <article>
+                        <div class="illustration">
+                            {% if item.link %}
+                                {% if item.linkMode == 'iframe' %}
+
                             <a href="{{ item.link }}"  data-fancybox data-type="iframe"
                                target="_blank" class="" data-src="{{ item.link }}">
                                 {{ page.media[item.imgsmall].html() }}
                             </a>
-                        {% else %}
+                                {% else %}
+
                             <a href="{{ page.media[item.img].url() }}" data-fancybox
                                target="_blank" class="">
                                 {{ page.media[item.imgsmall].html() }}
                             </a>
-                        {% endif %}
-                    {% else %}
-                        {{ page.media[item.imgsmall].html() }}
-                    {% endif %}
-                </div>
-                <h3>{{ item.title }}</h3>
-                <div class="content">
-                    <p>{{ item.description }}</p>
-                    <ul>
-                        {% for task in item.tasks %}
-                            <li>{{ task }}</li>
-                        {% endfor %}
-                    </ul>
-                    {% if item.link %}
-                        {% if item.linkMode == 'iframe' %}
+                                {% endif %}
+                            {% else %}
+
+                            {{ page.media[item.imgsmall].html() }}
+                            {% endif %}
+
+                        </div>
+
+                        <h3>{{ item.title }}</h3>
+                        <div class="content">
+                            <p>
+                                {{ item.description }}
+                            </p>
+                            {% if item.link %}
+                                {% if item.linkMode == 'iframe' %}
+
                             <a href="{{ item.link }}" data-fancybox data-type="iframe"
                                target="_blank" class="see-more"
                                data-src="{{ item.link }}">
                                 {{ item.linklabel }}
                             </a>
-                        {% else %}
+                                {% else %}
+
                             <a href="{{ page.media[item.img].url() }}" data-fancybox
                                target="_blank"
                                class="see-more">
                                 {{ item.linklabel }}
                             </a>
-                        {% endif %}
+                                {% endif %}
 
-                    {% endif %}
-                </div>
-            </article>
-        {% endfor %}
-    </div>
+                            {% endif %}
 
-</section>
+                        </div>
+
+                    </article>
+
+                {% endfor %}
+
+            </div>
+
+        </section>
 

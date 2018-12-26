@@ -30,6 +30,14 @@ form:
           validate:
             required: true
 
+        - name: g-recaptcha-response
+          label: Captcha
+          type: captcha
+          recaptcha_site_key: 6Lda44QUAAAAADB_JCx7xRJU6Bqskvlt80xa_M5s
+          recaptcha_not_validated: 'Captcha non valide !'
+          validate:
+            required: true
+
     buttons:
         - type: submit
           value: Envoyer

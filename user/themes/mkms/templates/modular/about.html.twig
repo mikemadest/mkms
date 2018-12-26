@@ -1,20 +1,47 @@
 
-<section id="about">
+        <section id="about">
 
-    <p class="about-content">
-        {{ page.header.description }}
-    </p>
+            <p class="about-content">
+                {{ page.header.description }}
+            </p>
 
-    <aside id="skills">
-        <ul>
-            {% for item in page.header.skills %}
-            <li>
-                <h4>{{ item.title }}</h4>
-                <p>
-                    {{ item.description }}
-                </p>
-            </li>
-            {% endfor %}
-        </ul>
-    </aside>
-</section>
+            <aside id="skills">
+                <ul>
+                    {% for item in page.header.skills %}
+
+                    <li>
+                        <h4>{{ item.title }}</h4>
+                        <p>
+                            {{ item.description }}
+                        </p>
+                    </li>
+
+                    {% endfor %}
+
+                </ul>
+            </aside>
+
+
+            <!--
+
+            With 14 years of experience, i've worked on a lot of project
+            and i'm used to the web evolution (Internet Explorer 6 compatibility... Enough said).
+
+            I've looked into Laravel and micro framework like Slim and Lumen,
+            i've got a course on nodeJS ( but lack pratice. Yet. ).
+
+            Concerning AngularJS, i've managed to update my 3d tools for 2 angular projects,
+            made directives and learned best pratices.
+            I'm interested in working on React or a more recent version of Angular.
+
+            -->
+
+        </section>
+
+        <section class="challenge">
+            <h2>{{ page.header.jobseeker.title }}</h2>
+            <p>{{ page.header.jobseeker.description }}</p>
+            <a href="#contact" class="see-more">
+                {{ page.header.jobseeker.linklabel }}
+            </a>
+        </section>
