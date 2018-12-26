@@ -39,9 +39,45 @@
         </section>
 
         <section class="challenge">
-            <h2>{{ page.header.jobseeker.title }}</h2>
-            <p>{{ page.header.jobseeker.description }}</p>
-            <a href="#contact" class="see-more">
-                {{ page.header.jobseeker.linklabel }}
-            </a>
+            <div>
+            {% for item in page.header.jobseeker %}
+                <h2>{{ item.title }}</h2>
+                <p>{{ item.description }}</p>
+                <a href="#contact" class="see-more">
+                    {{ item.linklabel }}
+                </a>
+            {% endfor %}
+            </div>
+
+            <div class="github">
+                <a href="https://github.com/mikemadest/foobar">
+                    <img src="{{ url('theme://img/github-logo.jpg') }}" alt="Github" width="280" />
+                </a>
+                <!--p>
+                    Professionals projects can't be disclosed so it's a work in progress, just to show some code.
+                </p-->
+            </div>
+
         </section>
+
+
+        <!--section class="github">
+            <div class="scrolled">
+                <article>
+                    <div class="illustration">
+                        <a href="https://github.com/mikemadest">
+                            <img src="{{ url('theme://img/github-logo.jpg') }}" alt="Github" width="280" />
+                        </a>
+                    </div>
+
+                    <div class="content">
+                        <p>
+                            <strong>Github</strong><br />
+                            Work projects can't be disclosed so it's a work in progress.<br />
+                            Have a look at foobar, not much to see yet but i'm working on it.
+                        </p>
+                    </div>
+
+                </article>
+            </div>
+        </section-->

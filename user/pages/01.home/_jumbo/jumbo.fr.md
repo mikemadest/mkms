@@ -1,4 +1,4 @@
 ---
 title: Développeur Web Fullstack
-baseline: PHP, Javascript, handling a team, fast learning
+baseline: PHP, Javascript, chef de projet, évolutif
 ---

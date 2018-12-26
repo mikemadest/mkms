@@ -33,8 +33,7 @@ jobseeker :
       description : |
                     Currently working in France, <strong>i'm looking for a job in the US</strong> (Visa sponsorship needed), preferably San Francisco.<br />
                     Any, questions, <strong>want to challenge me</strong> ?<br />
-                    Send me any problem you want me to solve, as long as its doable within reasonnable delay.<br />
-                    If it's a framework or a language not mentionned here and i think it's fun, i'll look into it.<br />
+                    Send me any problem you want me to solve, as long as its doable within reasonnable delay (example : foobar challenge).
                     
       linklabel : Contact me !
 

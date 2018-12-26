@@ -13,6 +13,8 @@
    e. About Section
    f. Porfolio Section
    g. Contact Section
+   h. Challenge Section
+   i. Github Section
 
 ===================================================================== */
 
@@ -262,7 +264,7 @@ footer a {
 
 
 #big-banner div.banner-content div {
-    width: ;
+    width: 100%;
 }
 
 #big-banner div h1 {
@@ -458,22 +460,6 @@ h3 .see-more {
 
 
 /* ------------------------------------------------------------------ */
-/* g. Challenge Section
-/* ------------------------------------------------------------------ */
-
-.challenge {
-    background: #333;
-    margin: 0;
-    padding: 24px 8%;
-}
-
-.challenge p {
-    color: #eee;
-    margin: 24px 0;
-}
-
-
-/* ------------------------------------------------------------------ */
 /* g. Contact Section
 /* ------------------------------------------------------------------ */
 
@@ -581,3 +567,44 @@ h3 .see-more {
     left: 18px;
     top: 17px;
 }
+
+
+
+/* ------------------------------------------------------------------ */
+/* h. Challenge Section
+/* ------------------------------------------------------------------ */
+
+.challenge {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background: #333;
+    margin: 0;
+    padding: 24px 8%;
+}
+
+.challenge p {
+    color: #eee;
+    font-size: 1.2rem;
+    line-height: 150%;
+    margin: 24px 0;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* i. Github Section
+/* ------------------------------------------------------------------ */
+
+.github {
+    padding: 1rem;
+}
+
+.github .content {
+}
+
+.github h3 {
+}
+
+.github .illustration {
+}
+
