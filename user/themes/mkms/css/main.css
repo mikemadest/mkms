@@ -489,6 +489,12 @@ h3 .see-more {
     text-align: right;
     width: 26%;
 }
+
+.form-data {
+    display: inline-block;
+    width: 45%;
+}
+
 #contact input,
 #contact textarea,
 #contact select {
@@ -501,7 +507,7 @@ h3 .see-more {
     outline: none;
     font-size: 1.5rem;
     line-height: 24px;
-    width: 45%;
+    width: 100%;
 }
 
 #contact textarea {
@@ -576,7 +582,7 @@ h3 .see-more {
 
 .challenge {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row;
     justify-content: space-between;
     background: #333;
     margin: 0;
@@ -585,8 +591,8 @@ h3 .see-more {
 
 .challenge p {
     color: #eee;
-    font-size: 1.2rem;
-    line-height: 150%;
+    /*font-size: 1.2rem;
+    line-height: 150%;*/
     margin: 24px 0;
 }
 
@@ -595,8 +601,10 @@ h3 .see-more {
 /* i. Github Section
 /* ------------------------------------------------------------------ */
 
+.witch-demo,
 .github {
     padding: 1rem;
+    min-width: 80px;
 }
 
 .github .content {

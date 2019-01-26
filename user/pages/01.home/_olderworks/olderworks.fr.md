@@ -14,9 +14,7 @@ portfolio:
     
   - title: "Tests sur Blender"
     description: |
-        <strong>Pas encore de code,</strong>
         juste des tests sur la modélisation 3d et le temps réel.
-        Je mettrai un lien vers une démo dès que possible.
     img: blender-tryout.jpg    
     imgsmall: blender-tryout-small.jpg    
     link: http://www.safran-immobilier.fr/programme/le-domaine-de-la-mission-talence-gironde/?template=maquette#navigation-programme

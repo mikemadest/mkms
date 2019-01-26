@@ -18,7 +18,7 @@
         It's made as simple as possible as i'm not a designer.
         I like it commented, clean and with correct indentation,
         whether in php, javascript or html
-        (although because it is processed by Twig, this may not be the case on your side, despite my efforts)
+        (although because it is processed by Twig, this may not be the case on your side)
 
         @todo : work on css class name, improve mobile version
 
@@ -40,6 +40,10 @@
         {{ assets.css() }}
         <script src="{{ url('theme://js/modernizr.js') }}"></script>
     {% endblock head %}
+
+    <script>window.jQuery || document.write('<script src="{{ url('theme://js/jquery-1.10.2.min.js') }}"><\/script>')</script>
+    <script type="text/javascript" src="{{ url('theme://js/jquery-migrate-1.2.1.min.js') }}"></script>
+
 </head>
 <body>
 
@@ -49,16 +53,9 @@
 
 {% block javascripts %}
     {% do assets.add('jquery',101) %}
-    <script>window.jQuery || document.write('<script src="{{ url('theme://js/jquery-1.10.2.min.js') }}"><\/script>')</script>
-    <script type="text/javascript" src="{{ url('theme://js/jquery-migrate-1.2.1.min.js') }}"></script>
-    {% do assets.addJs('theme://js/jquery.flexslider.js') %}
-    {% do assets.addJs('theme://js/waypoints.js') %}
-    {% do assets.addJs('theme://js/jquery.fittext.js') %}
-    {% do assets.addJs('theme://js/magnific-popup.js') %}
     {% do assets.addJs('theme://js/jquery.waypoints.min.js') %}
     {% do assets.addJs('theme://js/fancybox/jquery.fancybox.min.js') %}
     {% do assets.addJs('theme://js/main.js') %}
-    {% include 'partials/twFetcher.html.twig' %}
 {% endblock %}
 {{ assets.js() }}
 </body>

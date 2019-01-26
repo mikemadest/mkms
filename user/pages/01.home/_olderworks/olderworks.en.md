@@ -13,9 +13,7 @@ portfolio:
     
   - title: "Playing with Blender"
     description: |
-        <strong>No coding here yet,</strong>
         just experimenting with 3d modeling and real time.
-        I'll update it with a real time scene i soon as i can.
     img: blender-tryout.jpg    
     imgsmall: blender-tryout-small.jpg    
     link: http://www.safran-immobilier.fr/programme/le-domaine-de-la-mission-talence-gironde/?template=maquette#navigation-programme

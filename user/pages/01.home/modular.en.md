@@ -4,7 +4,7 @@ menu: Lead software engineer
 
 form:
     name: my-nice-form
-    action: /home
+    action: /home#contact
     fields:
         - name: name
           label: Name
@@ -45,7 +45,7 @@ form:
 
     process:
         - captcha:
-            recaptcha_secret: ENTER_YOUR_CAPTCHA_SECRET_KEY
+            recaptcha_secret: 6Lda44QUAAAAAE7krKAheKTXmmgQWA9kPsh4hmZ8
         - email:
             from: "{{ config.plugins.email.from }}"
             to:

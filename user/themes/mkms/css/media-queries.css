@@ -109,6 +109,25 @@
         max-height: 400px;
     }
 
+
+    /* New challenge / demo section
+    --------------------------------------------------------------------- */
+    .challenge {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+
+    .challege div {
+      align-self: center;
+    }
+
+    .witch-demo {
+      margin-top: 2rem;
+    }
+
 }
 
 
